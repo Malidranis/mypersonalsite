@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  font-size: 5.625rem; /* 100% = 16px To make it 90px divide 90/16 = 5.625 => 562.5% OR 16px = 100% = 1em */
+  /*rem = root em, does not get affected by other text sizing made elsewhere*/
+  margin-top: 0;
+  font-family: 'Darker Grotesque', sans-serif;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  color: #753700;
+  font-size: 2.5rem;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #C25D04;
+}
+
+hr {
+  border-style: none;
+  border-top-style: dotted;
+  color: #CCE2F7;
+  border-width: 6px;
+  width: 5%;
+}
+
+p {
+  line-height: 2;
+}
+
+a {
+  font-family: 'Montserrat', sans-serif;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #753700;
+}
+
+.top-container {
+  background-color: #40bad5;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 400px;
+  top: 50px;
+}
+
+.bottom-cloud {
+  position: absolute;
+}
+
+.mountain {
+  position: relative;
+  top: 4px;
+}
+
+
+
+.mePic {
+  margin-top: 16px;
+}
+
+.profile {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.prog-img {
+  float: left;
+  margin-right: 30px;
+}
+
+.tv-img {
+  float: right;
+  margin-left: 30px;
+}
+
+.btnContact {
+   background: #40BAD5;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 10px;
+   color: #753700;
+   font-family: Open Sans;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 10px;
+   border: solid #337FED 1px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+   margin-top: 20px;
+}
+
+.btnContact:hover {
+   border: solid #337FED 1px;
+   background: #1E62D0;
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   text-decoration: none;
+}
+
+
+
+.contact-me {
+  width: 50%;
+  margin: 50px auto;
+}
+
+.bottom-container {
+  background-color: #40bad5;
+  padding-top: 20px;
+}
+
+.footer-link {
+  margin: auto 10px;
+}
+
+.me-footer {
+  color: white;
+}
